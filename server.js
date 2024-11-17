@@ -13,7 +13,7 @@ const router = jsonServer.router(data);
 // Enable CORS with specific settings
 server.use(cors({
   origin: '*', // Replace this with the frontend's origin
-  methods: 'GET,POST,PUT,DELETE,PATHC', // Allow specific methods
+  methods: 'GET,POST,PUT,DELETE,PATCH', // Allow specific methods
   credentials: true, // Allow credentials (if needed)
 }));
 
